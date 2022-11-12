@@ -1,9 +1,6 @@
 MERN MAGICTEL WEBSITE
 Hi! My name is Tarun Goyal, I have created this website to learn MERN Stack.
 
-Prerequisite
-Must have basic knowledge of Node, React, Express, MongoDB . I have made tutorial on each technology on YouTube , make sure to check it out. Links are Below respectively
-
 Install Dependencies
 For Backend - npm i
 
