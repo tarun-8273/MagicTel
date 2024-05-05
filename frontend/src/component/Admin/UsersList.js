@@ -1,5 +1,5 @@
-import React, { Fragment, useEffect } from "react";
-import { DataGrid } from "@material-ui/data-grid";
+import React, { Fragment, useEffect, useState } from "react";
+import { DataGrid, selectedIdsLookupSelector } from "@material-ui/data-grid";
 import "./productList.css";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
@@ -138,6 +138,5 @@ const UsersList = ({ history }) => {
       </div>
     </Fragment>
   );
-};
-
+}
 export default UsersList;
