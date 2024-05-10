@@ -7,14 +7,6 @@ const path = require("path");
 
 const errorMiddleware = require("./middleware/error");
 
-let backendUrl;
-
-if (process.env.NODE_ENV === "production") {
-  backendUrl = "https://backend-magictel-mz90.onrender.com/";
-} else {
-  backendUrl = "http://localhost:4000"; // Default URL for development
-}
-
 //config
 if (process.env.NODE_ENV !== "PRODUCTION") {
   require("dotenv").config({ path: "backend/config/config.env" });

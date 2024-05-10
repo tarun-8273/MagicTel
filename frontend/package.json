@@ -58,5 +58,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://backend-magictel-mz90.onrender.com/"
+  "proxy": "http://192.168.56.1:3000"
 }
